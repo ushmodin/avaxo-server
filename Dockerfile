@@ -5,7 +5,7 @@ RUN make
 
 
 FROM alpine
-COPY --from=build /root/go/src/github.com/ushmodin/avaxo-server/dist/main /main
+COPY --from=build /go/src/github.com/ushmodin/avaxo-server/dist/main /main
 VOLUME /config.json
 EXPOSE 5000-15000
 CMD exec /main
