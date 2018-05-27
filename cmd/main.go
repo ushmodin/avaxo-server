@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	avaxo "github.com/ushmodin/avaxo-server"
+	"github.com/ushmodin/avaxo-server"
 )
 
 func main() {
