@@ -1,0 +1,5 @@
+{
+    "DbConnectionString":"host=? user= password=? dbname=?",
+    "RabbitConnectionString": "amqp://?:?@?:5672/",
+    "ManagerHost":"?"
+}
